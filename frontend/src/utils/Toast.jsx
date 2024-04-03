@@ -1,6 +1,6 @@
 import { Bounce, toast } from "react-toastify";
 
-export const Toast = (message, type) => {
+export const Toast = (message, type) => {   
   switch (type) {
     case "success":
       return toast.success(message, {
