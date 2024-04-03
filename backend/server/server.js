@@ -15,7 +15,7 @@ app.use(router);
 mongoose.connect(process.env.DB_URI).then((res)=>{
     console.log("database connected..")
 }).catch((err)=>{
-    console.log(err)
+    console.log(err)   
 })
 
 app.listen(PORT,()=>{
