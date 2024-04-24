@@ -27,7 +27,7 @@ function Copyright(props) {
       {'.'}  
     </Typography>
   );
-}
+}  
 
 // TODO remove, this demo shouldn't need to reset the theme.
 
