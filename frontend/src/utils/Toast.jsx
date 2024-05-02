@@ -1,5 +1,5 @@
 import { Bounce, toast } from "react-toastify";
-  
+    
 export const Toast = (message, type) => {   
   switch (type) {
     case "success":
